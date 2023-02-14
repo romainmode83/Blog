@@ -8,8 +8,8 @@ export default defineConfig({
   name: 'default',
   title: 'sanity-tutorial-blog',
 
-  projectId: import.meta.env.SANITY_STUDIO_PROJECT_ID,
-  dataset: import.meta.env.SANITY_STUDIO_DATASET,
+  projectId: '235bq1i5',
+  dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
 
