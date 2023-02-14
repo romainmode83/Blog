@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* use flex col on html+body in tailwind instead next project to set min height */ 
+#__next {
+    height: calc(100vh - 116px);
+    box-sizing: border-box;
+}
